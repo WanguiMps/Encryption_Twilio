@@ -1,0 +1,141 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #0e1014; /* Light gray background */
+    color: #333;
+   
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color:#704d58;
+    color: #e5eaf5;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Hero section styles */
+#hero {
+    padding: 100px 0;
+    text-align: center;
+    background-color:#0e1014; /* Semi-transparent white background */
+    border-bottom: 1px solid #ddd;
+    background-image: url('/static/images/hero.jpg'); /* Background image */
+    height: 665px;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #704d58;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+    color: #704d58;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #704d58;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Main sections */
+section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: 0e1014; /* Semi-transparent white background */
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Flex container for boxes */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    text-align: center;
+    margin: 20px;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+    transition: opacity 0.3s ease; /* Smooth opacity transition */
+    opacity: 1; /* Initially visible */
+}
+
+
+
+
+

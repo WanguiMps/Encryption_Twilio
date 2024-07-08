@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt Message</title>
+    <link rel="stylesheet" href="/static/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Decrypt Message</h1>
+        <form action="/decrypted_message" method="post">
+            <label for="otp">OTP:</label>
+            <input type="text" id="otp" name="otp" required>
+            
+            <label for="encrypted_message">Encrypted Message:</label>
+            <textarea id="encrypted_message" name="encrypted_message" required></textarea>
+            
+            <button class="button2" type="submit">Decrypt</button>
+            
+        </form>
+    </div>
+</body>
+</html>

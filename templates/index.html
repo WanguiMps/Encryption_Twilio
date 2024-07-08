@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PGFB Encryption System</title>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PGFB Encryption System</h1>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to Secure Messaging</h2>
+            <p>Encrypt and decrypt your messages with confidence.</p>
+            <a href="/encrypt" class="btn">Encrypt Message</a>
+            <a href="/decrypt" class="btn">Decrypt Message</a>
+        </div>
+    </section>
+   
+    
+    <section id="what-we-do">
+        <div class="container">
+            <h2>What PGFB Encryption System Does</h2>
+            <div class="flex-container">
+                <div class="box">
+                    <img src="{{ url_for('static', filename='images/encryption.jpeg') }}" alt="Encryption">
+                    <p>Encrypt Messages</p>
+                </div>
+                <div class="box">
+                    <img src="{{ url_for('static', filename='images/decryption.jpeg') }}" alt="Decryption">
+                    <p>Decrypt Messages</p>
+                </div>
+                <div class="box">
+                    <img src="{{ url_for('static', filename='images/security.jpeg') }}" alt="Security">
+                    <p>Ensures Security</p>
+                </div>
+                <div class="box">
+                    <img src="{{ url_for('static', filename='images/privacy.jpeg') }}" alt="Privacy">
+                    <p>Protects Privacy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PGFB Encryption System. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
