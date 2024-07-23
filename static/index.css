@@ -40,12 +40,12 @@ header h1 {
 #hero {
     padding: 100px 0;
     text-align: center;
-    background-color:#0e1014; /* Semi-transparent white background */
+    background-color:#704d58; /* Semi-transparent white background */
     border-bottom: 1px solid #ddd;
     background-image: url('/static/images/hero.jpg'); /* Background image */
     height: 665px;
     background-size: cover;
-    background-position: center;
+    background-position: czzenter;
 }
 
 #hero h2 {

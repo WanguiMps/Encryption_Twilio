@@ -64,8 +64,8 @@ def send_sms(body, to):
         return str(e)
 
 # Email configurations
-from_email = 'pittahnjosh@gmail.com' 
-password = 'bktk helv amic sqat'
+from_email = 'faithwangui.njoroge@strathmore.edu' 
+password = 'aedm jtbf qtwt waup'
 
 def send_email(body, to_email):
     msg = MIMEMultipart()
