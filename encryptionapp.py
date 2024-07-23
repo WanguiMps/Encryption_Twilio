@@ -63,7 +63,8 @@ def send_sms(body, to):
         print(f"Failed to send SMS: {str(e)}")
         return str(e)
 
-# Email configurations
+
+
 from_email = 'faithwangui.njoroge@strathmore.edu' 
 password = 'aedm jtbf qtwt waup'
 
